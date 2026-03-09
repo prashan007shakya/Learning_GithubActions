@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say hello to users
-        run: echo "Hello Dosto"
+        run: echo "Hello Prashant Shakya, welcome to github actions"
 
       - name: say hello to username
         run: echo "Hello $USER"
