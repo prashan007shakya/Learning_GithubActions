@@ -4,8 +4,8 @@ name: Hello
 # runs on an automatic trigger, whenever change is pushed to branch (deployment)
 on:
   workflow_dispatch:
-  # push:
-  #   branches: [main]
+  push:
+    branches: [main]
   #   paths:
   #     - '**.html'
 
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say hello to users
-        run: echo "Hello Prashant Shakya, welcome to github actions"
+        run: echo "Hello-Prashant Shakya, welcome to github actions"
 
       - name: say hello to username
         run: echo "Hello $USER"
