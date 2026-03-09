@@ -25,6 +25,8 @@ jobs:
 
       - name: say hello to username
         run: echo "Hello $USER"
+      - name: say hello to github actor
+        run: echo "Hello $GITHUB_ACTOR"
 
   details:
     runs-on: ubuntu-latest
